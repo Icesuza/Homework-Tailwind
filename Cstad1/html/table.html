@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table in html</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <table border="1" width="800">
+        <caption>
+          Membership Table
+        </caption>
+        <colgroup>
+          <col bgcolor="#add8e6" span="2" />
+        </colgroup>
+
+        <thead bgcolor="#90D5FF">
+          <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Membership Date</th>
+            <th rowspan="2">Balance</th>
+          </tr>
+          <tr>
+            <th>Joined</th>
+            <th>Cancel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ziqi</td>
+            <td>100</td>
+            <td>21-06-2000</td>
+            <td>19-11-2000</td>
+            <td>300$</td>
+          </tr>
+          <tr>
+            <td>Miao Miao</td>
+            <td>200</td>
+            <td>21-07-2000</td>
+            <td>19-11-2000</td>
+            <td>3000$</td>
+          </tr>
+          <tr>
+            <td>Muyao</td>
+            <td>300</td>
+            <td>20-06-2000</td>
+            <td>19-11-2000</td>
+            <td>400$</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5">Total Balance: </td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>
